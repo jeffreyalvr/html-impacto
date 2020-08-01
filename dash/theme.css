@@ -1,11 +1,6 @@
-/*
-  @author: Jeffrey Matheus
-  @email: matheusunitt@gmail.com
-*/
-
 @font-face {
   font-family: Roboto;
-  src: url(/dash/fonts/Roboto-Light.ttf);
+  src: url('./dash/fonts/Roboto-Light.ttf');
 }
 body {
   font-family: Roboto;
@@ -27,7 +22,7 @@ nav .wm-nav-left {
   margin-left: 30px;
 }
 nav .wm-nav-left .wm-logo {
-  background: url('/dash/images/logo.png');
+  background: url('./dash/images/logo.png');
   background-repeat: no-repeat;
   width: 160px;
   height: 50px;
@@ -255,7 +250,7 @@ textarea {
   height: 150px;
 }
 .quote {
-  background: url('/dash/images/quote.png');
+  background: url('./dash/images/quote.png');
   background-repeat: no-repeat;
   background-position: left;
   background-size: contain;
